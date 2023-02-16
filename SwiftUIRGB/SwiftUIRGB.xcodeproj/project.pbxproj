@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B957B029299E228D003589A7 /* RingColorPikers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B957B028299E228D003589A7 /* RingColorPikers.swift */; };
+		B957B02C299E3278003589A7 /* RGBView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B957B02B299E3278003589A7 /* RGBView.swift */; };
+		B98BDC92299D288500EE5C3C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98BDC91299D288500EE5C3C /* HomeView.swift */; };
+		B98BDC94299D2A8400EE5C3C /* ChooseButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98BDC93299D2A8400EE5C3C /* ChooseButtons.swift */; };
+		B98BDC96299D2BCA00EE5C3C /* GradientRing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98BDC95299D2BCA00EE5C3C /* GradientRing.swift */; };
+		B9E2A396299D4ECA00043018 /* UIColorWellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E2A395299D4ECA00043018 /* UIColorWellView.swift */; };
+		B9E2D4EF299CFD5900F2E856 /* SwiftUIRGBApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E2D4EE299CFD5900F2E856 /* SwiftUIRGBApp.swift */; };
+		B9E2D4F1299CFD5900F2E856 /* TrafficLightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E2D4F0299CFD5900F2E856 /* TrafficLightView.swift */; };
+		B9E2D4F3299CFD5C00F2E856 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9E2D4F2299CFD5C00F2E856 /* Assets.xcassets */; };
+		B9E2D4F6299CFD5C00F2E856 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9E2D4F5299CFD5C00F2E856 /* Preview Assets.xcassets */; };
+		B9E2D4F8299CFD5C00F2E856 /* TrafficConditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E2D4F7299CFD5C00F2E856 /* TrafficConditions.swift */; };
+		B9E2D4FB299CFD5C00F2E856 /* SwiftUIRGB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B9E2D4F9299CFD5C00F2E856 /* SwiftUIRGB.xcdatamodeld */; };
+		B9E2D502299D015E00F2E856 /* ActionPush.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E2D501299D015E00F2E856 /* ActionPush.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B957B028299E228D003589A7 /* RingColorPikers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingColorPikers.swift; sourceTree = "<group>"; };
+		B957B02B299E3278003589A7 /* RGBView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGBView.swift; sourceTree = "<group>"; };
+		B98BDC91299D288500EE5C3C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B98BDC93299D2A8400EE5C3C /* ChooseButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseButtons.swift; sourceTree = "<group>"; };
+		B98BDC95299D2BCA00EE5C3C /* GradientRing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientRing.swift; sourceTree = "<group>"; };
+		B9E2A395299D4ECA00043018 /* UIColorWellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorWellView.swift; sourceTree = "<group>"; };
+		B9E2D4EB299CFD5800F2E856 /* SwiftUIRGB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIRGB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9E2D4EE299CFD5900F2E856 /* SwiftUIRGBApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIRGBApp.swift; sourceTree = "<group>"; };
+		B9E2D4F0299CFD5900F2E856 /* TrafficLightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLightView.swift; sourceTree = "<group>"; };
+		B9E2D4F2299CFD5C00F2E856 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B9E2D4F5299CFD5C00F2E856 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B9E2D4F7299CFD5C00F2E856 /* TrafficConditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficConditions.swift; sourceTree = "<group>"; };
+		B9E2D4FA299CFD5C00F2E856 /* SwiftUIRGB.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftUIRGB.xcdatamodel; sourceTree = "<group>"; };
+		B9E2D501299D015E00F2E856 /* ActionPush.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionPush.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9E2D4E8299CFD5800F2E856 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B957B02A299E3249003589A7 /* RGBScreen */ = {
+			isa = PBXGroup;
+			children = (
+				B957B02B299E3278003589A7 /* RGBView.swift */,
+			);
+			path = RGBScreen;
+			sourceTree = "<group>";
+		};
+		B98BDC8F299D274500EE5C3C /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				B98BDC91299D288500EE5C3C /* HomeView.swift */,
+				B98BDC95299D2BCA00EE5C3C /* GradientRing.swift */,
+				B98BDC93299D2A8400EE5C3C /* ChooseButtons.swift */,
+				B9E2D501299D015E00F2E856 /* ActionPush.swift */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		B98BDC90299D27A700EE5C3C /* TrafficLightScreen */ = {
+			isa = PBXGroup;
+			children = (
+				B9E2D4F0299CFD5900F2E856 /* TrafficLightView.swift */,
+				B9E2D4F7299CFD5C00F2E856 /* TrafficConditions.swift */,
+			);
+			path = TrafficLightScreen;
+			sourceTree = "<group>";
+		};
+		B9E2A394299D4E5F00043018 /* UIColorWellScreen */ = {
+			isa = PBXGroup;
+			children = (
+				B9E2A395299D4ECA00043018 /* UIColorWellView.swift */,
+				B957B028299E228D003589A7 /* RingColorPikers.swift */,
+			);
+			path = UIColorWellScreen;
+			sourceTree = "<group>";
+		};
+		B9E2D4E2299CFD5800F2E856 = {
+			isa = PBXGroup;
+			children = (
+				B9E2D4ED299CFD5900F2E856 /* SwiftUIRGB */,
+				B9E2D4EC299CFD5800F2E856 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B9E2D4EC299CFD5800F2E856 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9E2D4EB299CFD5800F2E856 /* SwiftUIRGB.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9E2D4ED299CFD5900F2E856 /* SwiftUIRGB */ = {
+			isa = PBXGroup;
+			children = (
+				B9E2D4EE299CFD5900F2E856 /* SwiftUIRGBApp.swift */,
+				B98BDC8F299D274500EE5C3C /* HomeScreen */,
+				B98BDC90299D27A700EE5C3C /* TrafficLightScreen */,
+				B957B02A299E3249003589A7 /* RGBScreen */,
+				B9E2A394299D4E5F00043018 /* UIColorWellScreen */,
+				B9E2D4F2299CFD5C00F2E856 /* Assets.xcassets */,
+				B9E2D4F9299CFD5C00F2E856 /* SwiftUIRGB.xcdatamodeld */,
+				B9E2D4F4299CFD5C00F2E856 /* Preview Content */,
+			);
+			path = SwiftUIRGB;
+			sourceTree = "<group>";
+		};
+		B9E2D4F4299CFD5C00F2E856 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B9E2D4F5299CFD5C00F2E856 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9E2D4EA299CFD5800F2E856 /* SwiftUIRGB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9E2D4FE299CFD5C00F2E856 /* Build configuration list for PBXNativeTarget "SwiftUIRGB" */;
+			buildPhases = (
+				B9E2D4E7299CFD5800F2E856 /* Sources */,
+				B9E2D4E8299CFD5800F2E856 /* Frameworks */,
+				B9E2D4E9299CFD5800F2E856 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftUIRGB;
+			productName = SwiftUIRGB;
+			productReference = B9E2D4EB299CFD5800F2E856 /* SwiftUIRGB.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9E2D4E3299CFD5800F2E856 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					B9E2D4EA299CFD5800F2E856 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = B9E2D4E6299CFD5800F2E856 /* Build configuration list for PBXProject "SwiftUIRGB" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B9E2D4E2299CFD5800F2E856;
+			productRefGroup = B9E2D4EC299CFD5800F2E856 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9E2D4EA299CFD5800F2E856 /* SwiftUIRGB */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9E2D4E9299CFD5800F2E856 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9E2D4F6299CFD5C00F2E856 /* Preview Assets.xcassets in Resources */,
+				B9E2D4F3299CFD5C00F2E856 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9E2D4E7299CFD5800F2E856 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B957B029299E228D003589A7 /* RingColorPikers.swift in Sources */,
+				B957B02C299E3278003589A7 /* RGBView.swift in Sources */,
+				B9E2D4F8299CFD5C00F2E856 /* TrafficConditions.swift in Sources */,
+				B9E2A396299D4ECA00043018 /* UIColorWellView.swift in Sources */,
+				B9E2D4FB299CFD5C00F2E856 /* SwiftUIRGB.xcdatamodeld in Sources */,
+				B98BDC94299D2A8400EE5C3C /* ChooseButtons.swift in Sources */,
+				B9E2D502299D015E00F2E856 /* ActionPush.swift in Sources */,
+				B98BDC92299D288500EE5C3C /* HomeView.swift in Sources */,
+				B9E2D4F1299CFD5900F2E856 /* TrafficLightView.swift in Sources */,
+				B98BDC96299D2BCA00EE5C3C /* GradientRing.swift in Sources */,
+				B9E2D4EF299CFD5900F2E856 /* SwiftUIRGBApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B9E2D4FC299CFD5C00F2E856 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B9E2D4FD299CFD5C00F2E856 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9E2D4FF299CFD5C00F2E856 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIRGB/Preview Content\"";
+				DEVELOPMENT_TEAM = 2D298QL4HC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.1lyazz.SwiftUIRGB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B9E2D500299CFD5C00F2E856 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIRGB/Preview Content\"";
+				DEVELOPMENT_TEAM = 2D298QL4HC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.1lyazz.SwiftUIRGB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9E2D4E6299CFD5800F2E856 /* Build configuration list for PBXProject "SwiftUIRGB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9E2D4FC299CFD5C00F2E856 /* Debug */,
+				B9E2D4FD299CFD5C00F2E856 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9E2D4FE299CFD5C00F2E856 /* Build configuration list for PBXNativeTarget "SwiftUIRGB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9E2D4FF299CFD5C00F2E856 /* Debug */,
+				B9E2D500299CFD5C00F2E856 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B9E2D4F9299CFD5C00F2E856 /* SwiftUIRGB.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B9E2D4FA299CFD5C00F2E856 /* SwiftUIRGB.xcdatamodel */,
+			);
+			currentVersion = B9E2D4FA299CFD5C00F2E856 /* SwiftUIRGB.xcdatamodel */;
+			path = SwiftUIRGB.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B9E2D4E3299CFD5800F2E856 /* Project object */;
+}
