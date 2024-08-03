@@ -23,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A9C750E2C5E23FE00888819 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B957B028299E228D003589A7 /* RingColorPikers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingColorPikers.swift; sourceTree = "<group>"; };
 		B957B02B299E3278003589A7 /* RGBView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGBView.swift; sourceTree = "<group>"; };
 		B98BDC91299D288500EE5C3C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -90,6 +91,7 @@
 		B9E2D4E2299CFD5800F2E856 = {
 			isa = PBXGroup;
 			children = (
+				0A9C750E2C5E23FE00888819 /* README.md */,
 				B9E2D4ED299CFD5900F2E856 /* SwiftUIRGB */,
 				B9E2D4EC299CFD5800F2E856 /* Products */,
 			);
