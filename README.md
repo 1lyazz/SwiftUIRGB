@@ -11,7 +11,7 @@
 
 # SwiftUI RGB App
 
-HomeWork for TeachMeSchool.
+HomeWork for TeachMeSkills.
 Here were my first attempts at working with SwiftUI. No judgment 🫠
 
 # Screenshots
